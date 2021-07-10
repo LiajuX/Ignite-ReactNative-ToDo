@@ -18,7 +18,7 @@ interface TasksListProps {
   removeTask: (id: number) => void;
 }
 
-export function TasksList({ tasks, toggleTaskDone, removeTask }: TasksListProps) {
+export function TaskList({ tasks, toggleTaskDone, removeTask }: TasksListProps) {
   return (
     <FlatList
       data={tasks}

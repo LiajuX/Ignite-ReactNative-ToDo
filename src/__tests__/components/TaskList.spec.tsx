@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react-native';
 
-import { TasksList } from '../../components/TasksList';
+import { TaskList } from '../../components/TaskList';
 
 let tasks: {
   id: number;
@@ -38,7 +38,7 @@ describe('MyTasksList', () => {
   });
 
   it('should be able to render all tasks', () => {
-    const { getByText } = render(<TasksList tasks={tasks} removeTask={mockedRemoveTask} toggleTaskDone={mockedToggleTaskDone} />)
+    const { getByText } = render(<TaskList tasks={tasks} removeTask={mockedRemoveTask} toggleTaskDone={mockedToggleTaskDone} />)
     
     getByText('Primeiro todo');
     getByText('Segundo todo');
@@ -46,7 +46,7 @@ describe('MyTasksList', () => {
   });
 
   it('should be able to handle "removeTask" event', () => {
-    const { getByTestId } = render(<TasksList tasks={tasks} removeTask={mockedRemoveTask} toggleTaskDone={mockedToggleTaskDone} />)
+    const { getByTestId } = render(<TaskList tasks={tasks} removeTask={mockedRemoveTask} toggleTaskDone={mockedToggleTaskDone} />)
     const firstTaskTrashIcon = getByTestId('trash-0');
 
     fireEvent(firstTaskTrashIcon, 'press');
@@ -55,7 +55,7 @@ describe('MyTasksList', () => {
   });
 
   it('should be able to handle "toggleTaskDone" event', () => {    
-    const { getByText } = render(<TasksList tasks={tasks} removeTask={mockedRemoveTask} toggleTaskDone={mockedToggleTaskDone} />)
+    const { getByText } = render(<TaskList tasks={tasks} removeTask={mockedRemoveTask} toggleTaskDone={mockedToggleTaskDone} />)
     const secondTask = getByText('Segundo todo');
 
     fireEvent.press(secondTask);

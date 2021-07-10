@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { Header } from '../components/Header';
-import { Task, TasksList } from '../components/TasksList';
+import { Task, TaskList } from '../components/TaskList';
 import { TodoInput } from '../components/TodoInput';
 
 export function Home() {
@@ -43,7 +43,7 @@ export function Home() {
 
       <TodoInput addTask={handleAddTask} />
 
-      <TasksList 
+      <TaskList 
         tasks={tasks} 
         toggleTaskDone={handleToggleTaskDone}
         removeTask={handleRemoveTask} 
