@@ -18,7 +18,7 @@ export function ItemWrapper({ index, children }: ItemWrapperProps) {
       >
         {children}
       </LinearGradient>
-    )
+    );
   
   return (
     <View
@@ -26,5 +26,5 @@ export function ItemWrapper({ index, children }: ItemWrapperProps) {
     >
       {children}
     </View>
-  )
+  );
 }
