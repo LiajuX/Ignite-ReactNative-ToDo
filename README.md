@@ -30,7 +30,6 @@
 This is the first challenge of the React Native trail of [Ignite](https://rocketseat.com.br/ignite).
 <br>
 
-**🎓  Instructor: [Rodrigo Gonçalves](https://br.linkedin.com/in/rodrigo-gon%C3%A7alves-santana)**<br>
 **🎨  Layout made in [Figma](https://www.figma.com/) by [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/)**<br>
 
 <br> 
