@@ -55,7 +55,7 @@ Developed with React Native and TypeScript.
 
 ## 🏁 Starting the project:
 
-Clone the project: `git clone https://github.com/LiajuX/NextLevelWeek-PlantManager`
+Clone the project: `git clone https://github.com/LiajuX/Ignite-ReactNative-ToDo`
 
 ❗ **NOTE:** If you don't have yarn installed, use npm instead.
 <br>
