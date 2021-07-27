@@ -47,7 +47,7 @@ The 1st challenge was to complete a to-do app using logic and the basic concepts
 <br>
 
 ### 🛠 Technologies
-Developed with React Native, Expo and TypeScript.
+Developed with React Native and TypeScript.
 
 - **[React Native](https://reactnative.dev/)**
 - **[TypeScript](https://www.typescriptlang.org/)**
