@@ -11,7 +11,7 @@
   
   <img alt="GitHub repo size in bytes" src="https://img.shields.io/github/repo-size/LiajuX/Ignite-ReactNative-ToDo?color=green">
     
-  <img alt="MIT License" src="https://img.shields.io/github/license/LiajuX/Ignite-ReactNative-ToDo">
+  <img alt="MIT License" src="https://img.shields.io/github/license/LiajuX/NextLevelWeek-Gameplay">
 </p>
 
 <h3 align="center">
